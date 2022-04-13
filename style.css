@@ -46,7 +46,7 @@ body {
   height: auto;
   width: 100%;
   overflow: scroll;
-
+  scrollbar-width: none;
   background-image: linear-gradient(
     to right,
     var(--background-1),
@@ -69,6 +69,9 @@ body {
 .navbar {
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0px 6px 12px rgb(119 118 156 / 10%);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 .nav-wrapper {
@@ -126,6 +129,7 @@ body {
 
 .main-content {
   position: relative;
+  padding-top: 5rem;
 }
 
 .home,
