@@ -4,97 +4,221 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script
+      defer
+      src="https://unpkg.com/typeit@8.4.0/dist/index.umd.js"
+    ></script>
     <script defer src="./script.js"></script>
-    <title>Document</title>
+    <title>Toufic El-Saghir</title>
   </head>
   <body>
-    <div class="wrapper">
-      <header class="header">
-        <nav class="navbar wrap">
+    <!-- <div class="wrapper"> -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="nav-wrapper wrap">
           <div class="logo">
             <img src="./images/logo.png" alt="logo" />
           </div>
           <div class="links">
             <ul class="nav-list">
               <li><a id="home" href="/" data-nav-links="">Home</a></li>
-              <li><a id="story" href="" data-nav-links="">My story</a></li>
+              <li><a id="story" href="/" data-nav-links="">My story</a></li>
               <li>
-                <a id="certs" href="" data-nav-links="">Certifications</a>
+                <a id="certs" href="/" data-nav-links="">Education</a>
               </li>
-              <li><a id="education" href="" data-nav-links="">Education</a></li>
-              <li><a id="contacts" href="" data-nav-links="">Contact</a></li>
+              <li>
+                <a id="education" href="/" data-nav-links="">Education</a>
+              </li>
+              <li><a id="contacts" href="/" data-nav-links="">Contact</a></li>
             </ul>
           </div>
           <div class="cta">
-            <a href="/" class="cta">Download CV</a>
+            <a href="/" class="cta" data-download-cv>DOWNLOAD CV</a>
           </div>
-        </nav>
-        <div class="main-content">
-          <div class="home">
-            <div class="circle middle"></div>
-            <div class="img middle">
-              <img src="./images/silhouette.png" alt="main image" />
-            </div>
-          </div>
-          <div class="story wrap fadeOut">
-            <h1 class="tab-header">My Story</h1>
-            <div class="tab-container">
-              <div class="story-img">
-                <img src="./images/silhouette.png" alt="seconf image" />
-              </div>
-              <div class="story-details">
-                <h2 class="story-intro">Operations Manager</h2>
-                <p>
-                  As an accomplished operations manager, I am excited to read
-                  about your job posting. I’m elated because of how well this
-                  position aligns with my qualifications.<br /><br />
-                  With my experience in multiple countries, my educational
-                  foundations, and my utmost passion for managing operations, I
-                  am confident that I could step in to make an immediate
-                  positive contribution to your business operations without
-                  delay. I am adept in administrative and financial oversight,
-                  team building, and revenue generation. <br /><br />
-                  My positive attitude, attention to detail, and ability to
-                  learn quickly, continue to be a success story. I am adept in
-                  administrative and financial oversight, team building, and
-                  revenue generation. My positive attitude, attention to detail,
-                  and ability to learn quickly, continue to be a success story.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="certs wrap fadeOut">
-            <h1 class="tab-header">Academic Foundations</h1>
-            <div class="tab-container">
-              <div class="cert-img-1">
-                <img
-                  src="./images/Cardiff-Metropolitan-University.png"
-                  alt="seconf image"
-                />
-              </div>
-              <div class="story-details">
-                <h2 class="story-intro">Operations Manager</h2>
-                <p>
-                  As an accomplished operations manager, I am excited to read
-                  about your job posting. I’m elated because of how well this
-                  position aligns with my qualifications.<br /><br />
-                  With my experience in multiple countries, my educational
-                  foundations, and my utmost passion for managing operations, I
-                  am confident that I could step in to make an immediate
-                  positive contribution to your business operations without
-                  delay. I am adept in administrative and financial oversight,
-                  team building, and revenue generation.
-                </p>
-              </div>
+        </div>
+      </nav>
+      <div class="main-content">
+        <div class="home">
+          <div class="circle"></div>
+          <div class="img">
+            <img src="./images/silhouette.png" alt="main image" />
+            <div class="user-text">
+              <h1 class="name">Toufic</h1>
+              <p class="typeIt-text">
+                <span id="element"></span>
+              </p>
             </div>
           </div>
         </div>
-      </header>
-    </div>
+        <div class="story wrap fadeOut">
+          <h1 class="tab-header">My Story</h1>
+          <div class="tab-container">
+            <div class="story-img">
+              <img src="./images/silhouette.png" alt="second image" />
+              <span class="story-polygon"></span>
+              <span class="story-square"></span>
+            </div>
+            <div class="story-details">
+              <h2 class="story-intro">Operations Manager</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                rem nisi cupiditate, beatae quod deleniti repudiandae asperiores
+                fugiat officia! Voluptas magni quia saepe. Repudiandae iure
+                voluptate quae unde adipisci deserunt. Laudantium delectus
+                accusantium nobis numquam dolorum, magni fugit earum atque, ab
+                voluptates dicta quis perferendis dolore minima et! Recusandae
+                doloremque tempore reiciendis atque quisquam dolor laboriosam
+                quibusdam laudantium, rerum eum. Possimus deserunt cupiditate
+                ea. Error facere culpa vitae aliquam unde fugit saepe quas illo
+                temporibus, necessitatibus laudantium aspernatur ea, reiciendis
+                sapiente deserunt maxime harum esse distinctio a! Aliquam,
+                delectus unde. Temporibus voluptas perspiciatis quis blanditiis
+                doloremque delectus ipsum sunt officiis iste magni autem ab
+                maxime repellendus minus, beatae facilis debitis, placeat
+                ducimus ratione illum asperiores vel architecto. Odio, iure
+                ullam! Repellendus, veritatis nesciunt! Soluta, voluptatum
+                sapiente explicabo harum corporis maxime sed id debitis ab, iste
+                illo numquam tenetur neque nulla error! <br /><br />Dolor amet
+                odit perferendis officia dolores, necessitatibus at nihil! Iure
+                similique amet doloribus reprehenderit odit nihil eligendi nisi
+                odio quae cumque perspiciatis temporibus neque fuga dolores
+                quos, debitis dicta eveniet sequi nostrum. Nemo assumenda vero
+                at cupiditate corporis facere. Doloribus, dicta.<br /><br />
+                Qui necessitatibus dolores est modi consequuntur, tempore esse?
+                Illo esse vero, exercitationem fuga in quam consectetur culpa
+                fugit cupiditate ipsam voluptatem soluta at. Nulla reiciendis ad
+                officiis et? Illum culpa et assumenda minima, quibusdam nam
+                voluptates sed molestias tempore deleniti, nisi architecto,
+                similique repudiandae rem mollitia perferendis in corporis quae
+                voluptate? Beatae, iste doloribus! Nihil adipisci ipsam vel?
+                Quod eius enim doloribus ut iure odit, saepe ipsum eum nesciunt
+                qui excepturi? Error labore sequi atque odio doloribus facere
+                obcaecati, veritatis id recusandae quasi eum. Ducimus totam
+                magni eum? Vitae nobis quis, modi numquam dolor nam tempore,
+                blanditiis omnis placeat corporis officia nesciunt facere
+                mollitia veritatis temporibus maiores quae eligendi voluptatem
+                laboriosam doloribus? Tenetur distinctio aut deleniti cum error.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="certs wrap fadeOut">
+          <h1 class="tab-header">Academic Foundations</h1>
+          <div class="tab-container">
+            <div class="cert-img-1">
+              <div class="degree">
+                <div class="card">
+                  <div class="card-side card-side--front">
+                    <img
+                    src="./images/Cardiff-Metropolitan-University.png"
+                    alt="second image"
+                  />
+                  </div>
+                  <div class="card-side card-side--back">
+                    <h3>
+                      2016
+                    </h3>
+                  </div>
+                </div>
+                <h3>Bachelor of Science</h3>
+                <h4>Management Information Systems</h4>
+              </div>
+              <div class="degree">
+                <div class="card">
+                  <div class="card-side card-side--front">
+                    <img
+                    src="./images/Cardiff-Metropolitan-University.png"
+                    alt="second image"
+                  />
+                  </div>
+                  <div class="card-side card-side--back">
+                    <h3>
+                      2017
+                    </h3>
+                  </div>
+                </div>
+                <h3>Bachelor of Arts</h3>
+                <h4>Business Administration</h4>
+              </div>
+              <div class="degree">
+                <div class="card">
+                  <div class="card-side card-side--front">
+                    <img
+                    src="./images/Cardiff-Metropolitan-University.png"
+                    alt="second image"
+                  />
+                  </div>
+                  <div class="card-side card-side--back">
+                    <h3>
+                      2022
+                    </h3>
+                  </div>
+                </div>
+                <h3>MBA</h3>
+                <h4>Project Management</h4>
+              </div>
+            </div>
+            <div class="cert-details"></div>
+          </div>
+        </div>
+        <div class="education wrap fadeOut">
+          <h1 class="tab-header">Foundations</h1>
+          <div class="tab-container">
+            <div class="cert-img-1">
+              <img
+                src="./images/Cardiff-Metropolitan-University.png"
+                alt="second image"
+              />
+            </div>
+            <div class="story-details">
+              <h2 class="story-intro">Operations Manager</h2>
+              <p>
+                As an accomplished operations manager, I am excited to read
+                about your job posting. I’m elated because of how well this
+                position aligns with my qualifications.<br /><br />
+                With my experience in multiple countries, my educational
+                foundations, and my utmost passion for managing operations, I am
+                confident that I could step in to make an immediate positive
+                contribution to your business operations without delay. I am
+                adept in administrative and financial oversight, team building,
+                and revenue generation.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="contacts wrap fadeOut">
+          <h1 class="tab-header">Foundations</h1>
+          <div class="tab-container">
+            <div class="cert-img-1">
+              <img
+                src="./images/Cardiff-Metropolitan-University.png"
+                alt="seconf image"
+              />
+            </div>
+            <div class="story-details">
+              <h2 class="story-intro">Operations Manager</h2>
+              <p>
+                As an accomplished operations manager, I am excited to read
+                about your job posting. I’m elated because of how well this
+                position aligns with my qualifications.<br /><br />
+                With my experience in multiple countries, my educational
+                foundations, and my utmost passion for managing operations, I am
+                confident that I could step in to make an immediate positive
+                contribution to your business operations without delay. I am
+                adept in administrative and financial oversight, team building,
+                and revenue generation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- </div> -->
   </body>
 </html>

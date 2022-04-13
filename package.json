@@ -1,0 +1,22 @@
+{
+  "name": "friend-website-1",
+  "version": "1.0.0",
+  "description": "Website for a friend",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperstone6/friend-website-1.git"
+  },
+  "author": "Sayed Mahmood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyperstone6/friend-website-1/issues"
+  },
+  "homepage": "https://github.com/hyperstone6/friend-website-1#readme",
+  "dependencies": {
+    "typeit": "^8.4.0"
+  }
+}
