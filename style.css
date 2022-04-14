@@ -350,10 +350,11 @@ body {
 
 .cert-certs {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
-  /* outline: 3px solid brown; */
-  margin-top: 3rem;
+  overflow: scroll;
+  margin: 3rem;
+  padding-left: 90rem;
 }
 
 .cert-certs-unit {
